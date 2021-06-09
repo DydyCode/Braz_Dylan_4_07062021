@@ -13,11 +13,16 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+a {
+    font-weight: bold!important;
+}
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color:#9b9b9b!important;
 }
+
 .bold {
     font-weight: bold;
 }
@@ -335,7 +340,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -345,6 +350,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    color: #575757;
 }
 
 .navbar-toggle {
@@ -687,7 +693,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -703,7 +709,6 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
@@ -779,8 +784,18 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #FA6E59;
 }
-
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
 .tc-white {
+    color: #FFFFFF!important;
+}
+.tc-yellow {
     color: #FFDB5C!important;
 }
 
@@ -790,7 +805,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #FA6E59!important;
+    background: #ff998a!important;
     color: #FFFFFF!important;
 }
 
@@ -1046,3 +1061,4 @@ h4 {
         text-align: center;
     }
 }
+
