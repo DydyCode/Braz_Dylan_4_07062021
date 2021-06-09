@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family:'helvetica';
 }
 
 a,
@@ -16,6 +17,15 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+}
+.bold {
+    font-weight: bold;
+}
+.txt {
+    font-size: 18px;
+}
+.txtmini {
+    font-size: 13px;
 }
 
 #page-loading-blocs-notifaction {
@@ -677,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
